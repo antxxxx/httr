@@ -98,7 +98,7 @@ oauth_endpoints <- function(name) {
     google = oauth_endpoint(
       base_url = "https://accounts.google.com/o/oauth2",
       authorize = "auth",
-      access = "token",
+      access = "https://oauth2.googleapis.com/token",
       validate = "https://www.googleapis.com/oauth2/v1/tokeninfo",
       revoke = "revoke"
     ),
